@@ -36,6 +36,8 @@ const reduxList = (props) => {
 
 
 
+
+
 //mapStateToProps => وصل کردن استیت داخل استور به یک پراپرتی  و خواندن اطلاعات
 const mapStateToProps = (state) => ({
   products: state.productState.items,
